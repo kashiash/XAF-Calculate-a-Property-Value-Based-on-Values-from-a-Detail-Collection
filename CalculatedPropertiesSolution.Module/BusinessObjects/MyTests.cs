@@ -63,6 +63,14 @@ namespace CalculatedPropertiesSolution.Module.BusinessObjects
             Assert.AreEqual(1, product.OrdersCount); //here should be 2
             Assert.AreEqual(2, product.Orders.Count);
 
+            objectSpace.CommitChanges();
+
+            order.Product = product;
+            Assert.AreEqual(20, product.OrdersTotal); //here should be 53
+            Assert.AreEqual(1, product.OrdersCount); //here should be 2
+            Assert.AreEqual(2, product.Orders.Count);
+
+
 
 
         }

@@ -101,6 +101,7 @@
     <Compile Include="BusinessObjects\MyTests.cs" />
     <Compile Include="BusinessObjects\Order.cs" />
     <Compile Include="BusinessObjects\Product.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Module.cs">
       <SubType>Component</SubType>
