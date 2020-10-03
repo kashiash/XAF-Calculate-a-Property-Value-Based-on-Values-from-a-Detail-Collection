@@ -2,7 +2,7 @@
 Example to issue:
 https://supportcenter.devexpress.com/ticket/details/t936497/xpo-after-add-record-to-associated-collection-this-colection-stil-has-no-record
 
-* [ProductsViewController.cs](./CS/CalculatedPropertiesSolution.Module/ProductsViewController.cs)
+* [ProductsViewController.cs](CalculatedPropertiesSolution.Module/ProductsViewController.cs)
 
 ![](img1.png)
 
